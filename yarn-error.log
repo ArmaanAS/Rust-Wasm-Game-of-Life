@@ -1,0 +1,36 @@
+Arguments: 
+  /home/user/.nvm/versions/node/v14.18.1/bin/node /home/user/.node/corepack/yarn/1.22.15/bin/yarn.js init vite@latest
+
+PATH: 
+  /home/user/.local/bin:/home/user/.cargo/bin:/home/user/.nvm/versions/node/v14.18.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/libnvvp:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/libnvvp:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/cudnn-10.1-windows10-x64-v8.0.5.39/cuda/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/libnvvp:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/include:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/extras/CUPTI/libx64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/cudnn-10.0-windows10-x64-v7.6.5.32/cuda/bin:/mnt/c/Program Files/ImageMagick-7.0.11-Q16-HDRI:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Java/jdk-12.0.1/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2019.4.0/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/apache-maven-3.6.3/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PowerShell/7-preview:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Google/Protobuf/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2020.1.1/:/mnt/e/Program Files (x86)/pypy3.7-v7.3.5-win64:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PowerShell/7-preview/preview:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files (x86)/cloudflared/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/Student/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Student/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Student/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin:/mnt/c/Users/Student/.dotnet/tools:/mnt/c/Users/Student/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.18.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/user/.node/corepack/yarn/1.22.15/lib/cli.js:137145:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:1001:16)
+      at ReadStream.onkeypress (readline.js:265:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1270:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:293:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

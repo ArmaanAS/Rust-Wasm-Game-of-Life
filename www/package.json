@@ -31,8 +31,11 @@
     "wasm-game-of-life": "file:../pkg"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.0",
     "copy-webpack-plugin": "^5.0.0",
     "hello-wasm-pack": "^0.1.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.0.1",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"

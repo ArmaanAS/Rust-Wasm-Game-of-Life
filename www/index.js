@@ -1,8 +1,6 @@
 import { Universe, Cell } from "wasm-game-of-life";
 import { memory } from "wasm-game-of-life/wasm_game_of_life_bg";
 
-// const WIDTH = 64,
-//   HEIGHT = 64,
 const WIDTH = 512,
   HEIGHT = 512;
 let CELL_SIZE = document.body.clientWidth / WIDTH | 0;
