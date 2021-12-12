@@ -1,0 +1,37 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  
+  background-color: #3f4851;
+  font-family: sans-serif;
+  color: white;
+}
+
+pre {
+  line-height: 0.5;
+  letter-spacing: -4px;
+  word-spacing: 4px;
+}
+
+#canvas {
+  border-radius: 1rem;
+}
+
+.bar {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  gap: 0.5rem;
+  background-color: #282f36;
+  /* width: 100%; */
+  padding: 2rem;
+  margin-top: 1rem;
+  border-radius: 0.75rem;
+}
